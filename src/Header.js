@@ -4,9 +4,9 @@ import './Header.css'
 
 const headerStyle = {  };
 
-const Header = function () {
+const Header = function (props) {
     return (
-        <div className="header">Phone Directory</div>
+        <div className="header">{props.heading}</div>
     )
 }
 
